@@ -278,3 +278,25 @@ button {
     margin: 20px 0;
     padding-bottom: 20px;
 }
+
+/* Animations */
+
+h1:hover, h2:hover {
+    transform: scale(1.1,1.1);
+    color: purple;
+    text-decoration: underline;
+    transition-duration: 1.5s;
+}
+
+button:hover {
+    background-color: yellow;
+    transform: scale(1.2,1.2);
+    transition-duration: 1.5s;
+}
+
+img:hover {
+    transform: rotate(10deg);
+    transition-duration: 2s;
+}
+
+
