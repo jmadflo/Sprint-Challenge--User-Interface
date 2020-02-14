@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px solid black;
 }
 
 html, body {
@@ -66,9 +67,53 @@ p {
     line-height: 1.4;
 }
 
+/* Header */
+body {
+    margin: 40px;
+}
+
+header {
+    height: 50px;
+    width: 800px;
+    margin: 0 auto 20px;;
+}
+.header-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-nav a {
+	
+	width: 100%;
+	color: black;
+	text-decoration: none;
+}
+
+
+.header-nav a:hover {
+	color:blue;
+}
+
+#links {
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+#logo {
+	
+	width: 20%;
+	height: 50px;
+
+}
+
+/* End of Header */
+
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin: 20px auto 0;
 }
 
 .top-content {
@@ -112,6 +157,46 @@ p {
     justify-content: center;
 }
 
+#box_1 {
+    background: teal;
+}
+
+#box_2 {
+    background: gold;
+}
+
+#box_3 {
+    background: cadetblue;
+}
+
+#box_4 {
+    background: coral;
+}
+
+#box_5 {
+    background: crimson;
+}
+
+#box_6 {
+    background: forestgreen;
+}
+
+#box_7 {
+    background: darkorchid;
+}
+
+#box_8 {
+    background: hotpink;
+}
+
+#box_9 {
+    background: indigo;
+}
+
+#box_10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +229,6 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Unique to About page */
+
